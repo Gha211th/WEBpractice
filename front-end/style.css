@@ -165,6 +165,23 @@ section {
   color: #555555;
 }
 
+.thankyou {
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 1%;
+  background-color: #ff4848;
+  padding: 0.5% 5%;
+  border: 2px solid black;
+  box-shadow: 5px 5px 0 black;
+  transition: all 0.2s ease-in-out;
+}
+
+.thankyou:hover {
+  background-color: #d43939;
+  box-shadow: 2px 2px 0 black;
+  transform: translate(3px, 3px);
+}
+
 /* for about section */
 .about {
   height: 100vh;
@@ -179,7 +196,7 @@ section {
 }
 .about p {
   margin: 0% 15%;
-  background-color: burlywood;
+  background-color: #ffde59;
   border: 3px solid black;
   padding: 20px 25px;
   box-shadow: 8px 8px 0 black;
@@ -187,6 +204,7 @@ section {
 }
 
 .about p:hover {
+  background-color: #d8bc4d;
   box-shadow: 4px 4px 0 black;
   transform: translate(4px, 4px);
 }
@@ -200,6 +218,11 @@ section {
   font-weight: 500;
   font-style: italic;
   margin-bottom: 1%;
+  background-color: #ff4848;
+  padding: 0.5% 2%;
+  border: 2px solid black;
+  box-shadow: 5px 5px 0 black;
+  transition: all 0.2s ease-in-out;
 }
 
 /* project list */
