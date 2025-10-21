@@ -225,6 +225,12 @@ section {
   transition: all 0.2s ease-in-out;
 }
 
+.about h4:hover {
+  background-color: #d43939;
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px 0 black;
+}
+
 /* project list */
 
 .projecting {
