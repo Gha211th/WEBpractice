@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Try to make</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navigate-button">
+      <div class="logo-nav">WEBpractice</div>
+      <ul class="menu-nav">
+        <li><a href="#homepage">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#project-agha">Project</a></li>
+      </ul>
+      <div class="button-contact">Contact</div>
+    </nav>
+    <section class="home" id="homepage">
+      <div class="homepage-title">
+        <h1 class="title-h1" id="title">Hello there!</h1>
+        <h3 class="title-h3">~ Here's the example of js ~</h3>
+        <button class="button" id="button-klik">click me!</button>
+        <h4 class="disclaimer">
+          DISCLAIMER!: This is my prototype web for practice
+        </h4>
+      </div>
+    </section>
+    <section id="about" class="about-section">
+      <div class="about">
+        <h2>About Me</h2>
+        <h4>~ A little thing's about me ~</h4>
+        <p>
+          There's a thing about me, i just get started learning web development
+          recently. So, please be patient with my progress, and Lorem, ipsum
+          dolor sit amet consectetur adipisicing elit. Eveniet, ullam qui
+          recusandae accusantium provident amet, quidem quasi dolor temporibus
+          sit optio, sed eligendi unde fugit consequuntur nam beatae illum
+          facilis. Blanditiis quis recusandae, amet pariatur facere placeat
+          officia aliquam autem accusantium atque, repellendus iure rem deserunt
+          delectus tenetur architecto itaque ipsa quibusdam dolores sint. Maxime
+          corporis et, earum culpa excepturi fuga illo labore veritatis nesciunt
+          ab totam itaque ex quisquam. Dolorum expedita commodi non hic optio
+          deleniti nostrum est dicta numquam delectus minus ratione recusandae,
+          quibusdam eveniet? Quos aspernatur voluptatem alias aliquam odio
+          sapiente laborum voluptatum, reprehenderit labore aut deleniti.
+        </p>
+      </div>
+    </section>
+    <section id="project-agha">
+      <div class="projecting">
+        <h1>My Project</h1>
+        <h3>~ Here's some of my mini project ~</h3>
+
+        <div class="list-project">
+          <div class="p-1">
+            <img src="web1.png" alt="web1" />
+            <h3>Website</h3>
+            <h4>Simply it was my first web</h4>
+            <p>
+              This website is created by me as my first web project. I hope you
+              like it!
+            </p>
+          </div>
+          <div class="p-1">
+            <img src="web1.png" alt="web1" />
+            <h3>Website</h3>
+            <h4>Simply it was my first web</h4>
+            <p>
+              This website is created by me as my first web project. I hope you
+              like it!
+            </p>
+          </div>
+          <div class="p-1">
+            <img src="web1.png" alt="web1" />
+            <h3>Website</h3>
+            <h4>Simply it was my first web</h4>
+            <p>
+              This website is created by me as my first web project. I hope you
+              like it!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-men">
+        <h2>Contact Me If You Want</h2>
+        <h4>~ I'll be glad to hear from you ~</h4>
+        
+      </div>
+    </section>
+  </body>
+  <script>
+    const button = document.getElementById("button-klik");
+    const judul = document.getElementById("title");
+    button.addEventListener("click", function () {
+      var name = prompt("Masukkan nama Anda:", "Nama Anda");
+      judul.innerText = "Hello " + name.toUpperCase() + "!";
+    });
+  </script>
+</html>
