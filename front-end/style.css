@@ -312,3 +312,10 @@ section {
   line-height: 1.6;
   text-align: center;
 }
+
+.contact-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
