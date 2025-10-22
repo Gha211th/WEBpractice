@@ -319,3 +319,10 @@ section {
   align-items: center;
   gap: 5%;
 }
+.contact-list div {
+  margin-top: 3%;
+  border: 3px solid black;
+  padding: 2% 3%;
+  box-shadow: 6px 6px 0 black;
+  transition: all 0.2s ease-in-out;
+}
