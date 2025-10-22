@@ -37,6 +37,7 @@ section {
   align-items: center;
   padding: 1% 2%;
   color: #000;
+  z-index: 9999;
 }
 
 .logo-nav {
