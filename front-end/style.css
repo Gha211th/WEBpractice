@@ -340,3 +340,7 @@ section {
   box-shadow: 3px 3px 0 black;
   transform: translate(3px, 3px);
 }
+
+.blank {
+  position: bottom;
+}
